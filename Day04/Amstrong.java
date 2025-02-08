@@ -13,7 +13,7 @@ public class Amstrong {
         }
         while (( rem!=0)) {
             
-             temp=rem%10;
+            num=rem%10;
             rem = rem+(int)Math.pow(rem,count); 
             rem=rem/10;
         }

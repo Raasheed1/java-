@@ -1,4 +1,4 @@
-package Day3;
+// package Day3;
 
 import java.util.Scanner;
 
@@ -7,6 +7,7 @@ public class PrimeNumber {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number");
         int n=sc.nextInt();
+        int i;
         if(n==2){
             System.out.println("Prime");
         }else if(n<2){
@@ -14,15 +15,17 @@ public class PrimeNumber {
         }
         else{
 
-            for(int i=2;i<n;i++){
-                if(n%i==0){
-                    System.out.println("not Prime");
-                    break;
-                }else{
-                    System.out.println(" prime");
-                    break;
-                }
+            for(i=2;i<n;i++){
+                // if(n%i==0){
+                //     System.out.println("not Prime");
+                //     break;
+                // }else{
+                //     System.out.println(" prime");
+                //     break;
+                // }
+                
             }
+            System.out.println(n%i==0 ? "not prime" : "gy");
         }
     }
 }
