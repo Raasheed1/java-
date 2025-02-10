@@ -1,4 +1,4 @@
-package Day3;
+
 
 public class ForLoop {
     //for(initialization;condition;increment)

@@ -1,4 +1,4 @@
-package Day3;
+
 
 public class EvenTillTen {
     public static void main(String[] args) {

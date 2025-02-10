@@ -1,4 +1,4 @@
-package Day3;
+
 
 public class PrimeNumberRange {
     static boolean isPrime(int n){
